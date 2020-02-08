@@ -1,18 +1,34 @@
+:root {
+  --red: #ff6f69;
+  --beige: #ffeead;
+  --yellow: rgb(216, 216, 169);
+}
+
 html,
 body {
-  background: #ffeead;
-  color: #ff6f69;
+  background: var(--beige);
+  color: var(--red);
+}
+
+h1,
+p {
+  color: var(--red);
+}
+
+#navbar {
+  --nav-red: #680300;
 }
 
 #navbar a {
-  color: #ff6f69;
+  color: var(--nav-red);
 }
 
 .item {
-  background: #ffcc5c;
+  --red: #d3504c;
+  background: var(--yellow);
 }
 
 button {
-  background: #ff6f69;
-  color: #ffcc5c;
+  background: var(--red);
+  color: var(--beige);
 }
